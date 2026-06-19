@@ -1,0 +1,82 @@
+/* - seletor universal/global:
+Utilizamos esse seletor quando queremos aplicar uma ou mais propriedades a todos os elementos da página */
+*{
+    /* margin - controla oj espaçamento fora do elemento*/
+    margin: 0;
+    /* padding - controla o espaçamento dentro do elemento*/
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background: #FFFFFF;
+     font-family: "Inter", sans-serif;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 125px;
+}
+/* group selector - é quando agrupamos elementos diferentes, separados por virgula, que receberam a mesma propriedade.*/
+h1,
+p {
+    color: #111111;
+}
+
+h1{
+    /* font-size - controla o tamanho do texto. */
+    font-size: 40px;
+    /* font-weight - controla o peso da fonte. */
+    font-weight: 400;
+    /* text-transform - serve para deixar letras maiúsculas, minúsculas, ou com a primeira letra de cada palavra maiúscula.*/
+
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 200; 
+    margin-bottom: 32px;
+}
+li{
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+a{
+    background-color: #A2169D;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 16px;
+
+    font-weight: 700;
+
+    height: 48px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+    
