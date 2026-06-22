@@ -32,6 +32,7 @@ img{
 h1,
 p {
     color: #111111;
+    text-align: center;
 }
 
 h1{
@@ -50,6 +51,9 @@ p{
     font-size: 24px;
     font-weight: 200; 
     margin-bottom: 32px;
+    max-width: 18ch;
+    margin-left: auto;
+    margin-right: auto;
 }
 li{
     list-style: none;
@@ -70,6 +74,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* houver - é uma pseudo-classe do CSS. Serve para aplciar estilos a um elemento quando o usuário passa o mouse sobre ele.*/
+a:hover{
+    background-color: #0d7cfa; 
 }
 
 
